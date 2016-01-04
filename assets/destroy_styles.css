@@ -1,0 +1,27 @@
+	* {
+		margin: 0px; 
+		padding: 0px; 
+		font-size: 1em;
+		font-family: verdana;  
+	}
+	body {
+		background-color: rgb(245,245,245);
+	}
+	.cancel, .delete {
+		border: 1px solid black;
+		box-shadow: 3px 3px 6px black;  
+	}
+	.container { 
+		width: 900px; 	
+	}
+	.cancel {
+		background-color: silver; 
+		color: black; 
+		padding: 5px 10px; 
+		margin-right: 25px;  
+	}
+	.delete {
+		background-color: red; 
+		color: white; 
+		padding: 5px 100px; 
+	}
